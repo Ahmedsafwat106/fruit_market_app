@@ -1,0 +1,43 @@
+name: ahmedsafwat
+description: A Fruit Market App with Clean Architecture.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.3
+  cloud_firestore: ^4.17.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/fruit.jpg
+    - assets/images/shopping.jpg
+    - assets/images/delivary.jpg
+    - assets/images/delivaryarrived.jpg
+    - assets/images/logo.jpg
+    - assets/images/fruitmarket.jpg
+    - assets/images/fruit1.jpg
+    - assets/images/fruit2.jpg
+    - assets/images/fruit3.jpg
+    - assets/images/fruit4.jpg
+    - assets/images/fruit5.jpg
+    - assets/images/fruit6.jpg
